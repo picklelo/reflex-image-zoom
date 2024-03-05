@@ -6,7 +6,7 @@ def index() -> rx.Component:
         rx.vstack(
             rx.heading("Welcome to Reflex!", size="9"),
             image_zoom(
-                rx.image(src="https://picsum.photos/800/500", width="400px"),
+                rx.image(src="https://random.imagecdn.app/800/500", width="400px"),
             ),
             align="center",
             spacing="7",
